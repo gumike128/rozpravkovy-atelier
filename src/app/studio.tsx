@@ -1176,10 +1176,16 @@ export default function Studio() {
 
     fetch("/api/projects")
       .then(async (response) => {
-        if (!response.ok) throw new Error("Nepodarilo sa načítať knižnicu.");
-        return (await response.json()) as { projects: SavedProject[] };
+        const result = (await response.json()) as {
+          projects?: SavedProject[];
+          error?: string;
+        };
+        if (!response.ok) {
+          throw new Error(result.error || "Nepodarilo sa načítať knižnicu.");
+        }
+        return result;
       })
-      .then(({ projects: saved }) => {
+      .then(({ projects: saved = [] }) => {
         if (active) {
           setProjects(saved);
           setApiAvailable(true);
@@ -1204,8 +1210,17 @@ export default function Studio() {
           }
         }
       })
-      .catch(() => {
-        if (active) setApiAvailable(false);
+      .catch((error: unknown) => {
+        if (active) {
+          setApiAvailable(false);
+          setNotice({
+            message:
+              error instanceof Error
+                ? error.message
+                : "Ukladanie nie je dostupné. Skontrolujte pripojenie k databáze.",
+            kind: "error",
+          });
+        }
       })
       .finally(() => {
         if (active) setIsLoading(false);
