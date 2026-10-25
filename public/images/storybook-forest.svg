@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#8fc5a0"/>
+      <stop offset="1" stop-color="#e7c982"/>
+    </linearGradient>
+    <linearGradient id="path" x2="0" y2="1">
+      <stop stop-color="#edcf91"/>
+      <stop offset="1" stop-color="#9a7852"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#sky)"/>
+  <circle cx="880" cy="145" r="66" fill="#fff0b4" opacity=".8"/>
+  <path d="M0 420 220 210l190 210 190-260 225 260 175-195 200 205v280H0Z" fill="#73966c"/>
+  <path d="M0 495 175 300l170 195 170-230 200 230 190-190 180 190 115-130v335H0Z" fill="#496d55"/>
+  <path d="M500 700c38-150 95-192 90-284-4-68-53-115-55-163 93 68 167 160 153 258-11 79-77 128-93 189Z" fill="url(#path)"/>
+  <g fill="#294d40">
+    <path d="m90 430 90-238 90 238Z"/><path d="m170 438 80-202 80 202Z"/>
+    <path d="m940 435 100-268 100 268Z"/><path d="m850 438 80-211 80 211Z"/>
+    <path d="m360 414 65-174 65 174Z"/><path d="m710 420 72-190 72 190Z"/>
+  </g>
+  <g fill="#f4df9a">
+    <circle cx="255" cy="520" r="8"/><circle cx="318" cy="570" r="6"/><circle cx="895" cy="510" r="8"/>
+    <circle cx="820" cy="585" r="5"/><circle cx="1020" cy="555" r="6"/><circle cx="420" cy="610" r="5"/>
+  </g>
+</svg>

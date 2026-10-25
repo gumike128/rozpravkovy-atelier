@@ -147,7 +147,7 @@ export const worldPresets: WorldPreset[] = [
     id: "forest",
     name: "Mätový les",
     tagline: "Veverička a slimáčik hľadajú stratenú iskru lesnej lampy.",
-    image: "/images/storybook-forest.jpg",
+    image: "/images/storybook-forest.svg",
     ageTag: "5 - 7 rokov",
     moralTag: "Pomoc a priateľstvo",
     draft: { ...sampleDraft },
@@ -156,7 +156,7 @@ export const worldPresets: WorldPreset[] = [
     id: "meadow",
     name: "Horská lúka",
     tagline: "Svišťko a svetluška nesú posledné svetielko na večernú oblohu.",
-    image: "/images/world-meadow.jpg",
+    image: "/images/world-meadow.svg",
     ageTag: "4 - 6 rokov",
     moralTag: "Odvaha v malých krokoch",
     draft: {
@@ -183,7 +183,7 @@ export const worldPresets: WorldPreset[] = [
     id: "pond",
     name: "Spievajúci rybník",
     tagline: "Žabiatko chce sólo, vážka ho učí počúvať ticho medzi tónmi.",
-    image: "/images/world-pond.jpg",
+    image: "/images/world-pond.svg",
     ageTag: "7 - 9 rokov",
     moralTag: "Načúvanie a spolupráca",
     draft: {
@@ -210,7 +210,7 @@ export const worldPresets: WorldPreset[] = [
     id: "attic",
     name: "Lampášová povala",
     tagline: "Medvedík sa bojí tmy, nočný motýľ mu ukazuje jej hviezdy.",
-    image: "/images/world-attic.jpg",
+    image: "/images/world-attic.svg",
     ageTag: "4 - 6 rokov",
     moralTag: "Tma nie je strašiak",
     draft: {

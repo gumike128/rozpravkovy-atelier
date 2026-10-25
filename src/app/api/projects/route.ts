@@ -14,7 +14,16 @@ import {
 
 export const dynamic = "force-dynamic";
 
+function databaseUnavailable() {
+  return Response.json(
+    { error: "Databáza nie je nakonfigurovaná. Nastavte DATABASE_URL." },
+    { status: 503 },
+  );
+}
+
 export async function GET() {
+  if (!process.env.DATABASE_URL) return databaseUnavailable();
+
   try {
     const projects = await db
       .select()
@@ -59,6 +68,8 @@ export async function GET() {
 }
 
 export async function POST(request: Request) {
+  if (!process.env.DATABASE_URL) return databaseUnavailable();
+
   try {
     const body: unknown = await request.json();
 

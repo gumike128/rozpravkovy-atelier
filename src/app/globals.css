@@ -520,7 +520,7 @@ textarea:focus-visible {
 }
 
 .keyart-background {
-  background-image: url("/images/storybook-forest.jpg");
+  background-image: url("/images/storybook-forest.svg");
   background-position: center 55%;
   background-size: cover;
   inset: 0;
@@ -1225,7 +1225,7 @@ textarea:focus-visible {
 
 .passport-art {
   background-color: #5a7255;
-  background-image: url("/images/storybook-forest.jpg");
+  background-image: url("/images/storybook-forest.svg");
   background-position: 62% 54%;
   background-size: cover;
   height: 129px;
@@ -1610,7 +1610,7 @@ textarea:focus-visible {
 
 .library-card-art {
   background-color: #61775b;
-  background-image: url("/images/storybook-forest.jpg");
+  background-image: url("/images/storybook-forest.svg");
   background-position: 65% 50%;
   background-size: cover;
   height: 137px;
@@ -2531,7 +2531,7 @@ textarea:focus-visible {
 }
 
 .concept-context-art {
-  background-image: url("/images/storybook-forest.jpg");
+  background-image: url("/images/storybook-forest.svg");
   background-position: 63% 55%;
   background-size: cover;
   border-radius: 6px;
@@ -3903,7 +3903,7 @@ textarea:focus-visible {
 
 .screenplay-start-art {
   background-color: #687e5f;
-  background-image: url("/images/storybook-forest.jpg");
+  background-image: url("/images/storybook-forest.svg");
   background-position: 63% 55%;
   background-size: cover;
   border-radius: 8px;
@@ -5595,7 +5595,7 @@ textarea:focus-visible {
 }
 
 .final-hero-art {
-  background-image: url("/images/storybook-forest.jpg");
+  background-image: url("/images/storybook-forest.svg");
   background-position: center 42%;
   background-size: cover;
   inset: 0;
@@ -5773,7 +5773,7 @@ textarea:focus-visible {
 
 .final-thumb-visual {
   align-items: flex-end;
-  background-image: url("/images/storybook-forest.jpg");
+  background-image: url("/images/storybook-forest.svg");
   background-size: cover;
   border-radius: 7px;
   display: flex;

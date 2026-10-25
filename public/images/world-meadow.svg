@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#8cc9de"/>
+      <stop offset="1" stop-color="#f2d898"/>
+    </linearGradient>
+    <linearGradient id="hill" x2="0" y2="1">
+      <stop stop-color="#a8c97d"/>
+      <stop offset="1" stop-color="#59845b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#sky)"/>
+  <circle cx="930" cy="155" r="74" fill="#ffe9a5"/>
+  <g fill="#fff" opacity=".7">
+    <ellipse cx="240" cy="185" rx="95" ry="24"/><ellipse cx="280" cy="168" rx="48" ry="35"/>
+    <ellipse cx="680" cy="235" rx="108" ry="25"/><ellipse cx="730" cy="216" rx="54" ry="36"/>
+  </g>
+  <path d="M0 465 195 260l170 190 220-255 205 260 175-190 235 205v230H0Z" fill="#879c82"/>
+  <path d="M0 510c190-75 332-54 485-18 180 43 303-22 448-15 106 5 194 37 267 76v147H0Z" fill="url(#hill)"/>
+  <path d="M0 630c170-74 355-89 538-36 172 49 375 8 662-56v162H0Z" fill="#557a52"/>
+  <g stroke="#e9d477" stroke-width="5" stroke-linecap="round">
+    <path d="M190 700v-76m0 26-22-22m22 38 21-22M330 700v-92m0 33-23-22m23 40 24-23"/>
+    <path d="M910 700v-90m0 31-22-22m22 39 23-22M1040 700v-80m0 29-22-21m22 38 22-21"/>
+  </g>
+  <g fill="#f7e7a4"><circle cx="190" cy="618" r="11"/><circle cx="330" cy="604" r="11"/><circle cx="910" cy="598" r="11"/><circle cx="1040" cy="620" r="11"/></g>
+</svg>
