@@ -20,6 +20,10 @@ export const metadata: Metadata = {
   title: "Rozprávkový ateliér | Tvorba animovaných príbehov",
   description:
     "Tvorivý pracovný priestor na plánovanie animovaných detských príbehov, postáv, sveta a produkčného pasu.",
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+  },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
